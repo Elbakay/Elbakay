@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="formulaire.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="formulaire.js"></script>
+  <title>Formulaire HTML</title>
+
+</head>
+<body>
+   
+ 
+  <form id="myform">
+      <div id="text1"> <h1>Saisie d'une fiche "Personne"</h1></div>
+      <P>
+            <label for ="nom">Nom</label>
+            <input type ="text" name="nom" id ="NOM" placeholder="Votre Nom">
+      </P>
+      <P>   
+            <label for ="prenom">Prénom</label>
+            <input type ="text" name="prenom" id ="PRENOM" placeholder="Votre Prénom">
+      </P>
+      <P>
+            <label for ="date">Date de naissance</label>
+            <input type ="date" name="date" id ="DATE" placeholder="JJ/MM/AAAA">
+      </P>
+      <P>
+            <label for ="adresse">Adresse</label>
+            <input type ="text" name="adresse" id ="ADRESSE" placeholder="Votre adresse">
+      </P>
+      <P>
+            <label for ="mail">Mail</label>
+            <input type ="email" name="mail" id ="MAIL" placeholder="Votre mail">
+      </P>
+      
+            <button class="btn btn-outline-primary btn-lg" type="button" id="boutton" onclick="Validation()">Valider</button>
+      
+      <div id="RESUL"></div>
+ </form>
